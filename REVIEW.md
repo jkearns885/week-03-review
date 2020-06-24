@@ -2,44 +2,50 @@
 
 ## how do we fork a repo? 
 
-- Fork this repo when the url is shared in slack
+- On GitHub
 
 ## how do clone a repo to be available on our local?
 
-- For discussion and then for all to clone
+- git clone (copy and paste repo URL)
 
 ## how do we move changes from working folder to staging?
 
-- Type the commands and any extra info you want to share here
+- git add .
 
 ## how do we move changes from staging folder to the local repo?
 
-- Type the commands and any extra info you want to share here
-
-## how do we move changes from staging folder to the local repo?
-
-- Type the commands and any extra info you want to share here
+- git commit -m "Enter a commit message here"
 
 ## how do we confirm what is in the local repo
 
-- Type the commands and any extra info you want to share here
+- git status
 
 ## how do we confirm what is in the remote repo
 
-- Type the commands and any extra info you want to share here
+- git remote -v
 
 ## how do we confirm the url of our git remotes?
 
-- Type the commands and any extra info you want to share here
+- git log
 
 ## how many and what sections are in an html document
 
-Type your answer here, use git commands to 
+2: head and body
 
 ## there are two ways to reference css in the header - show examples of two tags that are used for styling
 
-Type your answer here and push it up
+style and link
+ex: <style>enter class specifications you created here
+</style>
+
+ex: <link> 
+rel="stylesheet" href= enter url for a stylesheet here, can be found on bootstrap 
+</link>
 
 ## 3 - how many ways can you declare a variable
+const & let are the two we use the most now.
 ## hint - 1 old school way - the new ways
+var is the old school way
 ## provide a few samples
+ex: const exampleArrayVariable = ['car1', 'car2', 'car3']
+var result = yourFunctionName(parameterOne, parameterTwo)
